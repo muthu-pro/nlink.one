@@ -10,7 +10,7 @@ body {
     height: 100vh;
     position: relative;
     background: radial-gradient(circle at center, #704214 0%, #2c1810 100%);
-    filter: sepia(0.7);
+    filter: sepia(0.3);
 }
 
 .sun {
