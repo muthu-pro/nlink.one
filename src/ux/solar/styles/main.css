@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    overflow: hidden;
+}
+
+.solar-system {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background: radial-gradient(circle at center, #704214 0%, #2c1810 100%);
+    filter: sepia(0.3);
+}
+
+.sun {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: radial-gradient(circle at center, #ffd700, #ff4500);
+    box-shadow: 0 0 60px #ff4500;
+    transform: translate(-50%, -50%);
+}
+
+.sound-control {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.planet-label {
+    position: absolute;
+    color: #ffffff;
+    font-size: 12px;
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
+    white-space: nowrap;
+    pointer-events: none;
+    opacity: 0.8;
+    font-family: Arial, sans-serif;
+    transform: translate(-50%, -20px);
+}
