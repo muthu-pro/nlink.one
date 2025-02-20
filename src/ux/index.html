@@ -64,7 +64,7 @@
 </head>
 <body>
     <div class="center-text">NLINK ONE</div>
-    <button class="enter-button" onclick="enterSite()">ENTER</button>
+    
     
     <script>
         // Setup scene, camera, and renderer
@@ -145,7 +145,7 @@
                 startSound();
             }
             if (oscillator) {
-                oscillator.frequency.setValueAtTime(200 + Math.random() * 800, audioContext.currentTime);
+                oscillator.frequency.setValueAtTime(0 + Math.random() * 0, audioContext.currentTime);
             }
         }
 
