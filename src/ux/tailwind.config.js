@@ -21,6 +21,7 @@ export default {
         'float-up': 'floatUp 0.8s ease-out forwards',
         'glow': 'glow 3s ease-in-out infinite alternate',
         'fade-in-up': 'fadeInUp 1s ease-out forwards',
+        'pulse-smooth': 'pulseSmooth 2s ease-in-out infinite', // Added new animation
       },
       backdropBlur: {
         'xs': '2px',
